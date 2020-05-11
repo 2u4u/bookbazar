@@ -1,0 +1,37 @@
+.main {
+  min-height: 100%;
+  height: 100%;
+  background-color: #f0f2f5;
+}
+.layout {
+  &.layout__full {
+    min-height: 100%;
+  }
+}
+.header {
+  &__wrapper {
+   height: 100%;
+  }
+  &__link {
+    margin-right: auto;
+    margin-left: 20px;
+  }
+  &__login {
+    padding: 20px;
+    cursor: pointer;
+  }
+}
+.content {
+  padding: 20px 50px;
+}
+.sidebar {
+  &__header {
+    height: 32px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 16px;
+  }
+}
+.page {
+  background-color: #ffffff;
+  padding: 24px;
+}
